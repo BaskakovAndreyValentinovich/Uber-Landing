@@ -1,0 +1,28 @@
+@media only screen and (max-device-width: 1200px)
+    .menu
+        &Item
+            padding-right: 20px
+        &Link
+            font-size: 11px
+    .promo
+        &Header
+            font-size: 50px
+    .reasons
+        &text
+            align-items: flex-start
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 20px
+        span
+            display: block
+            height: 2px
+            width: 100%    
+            background-color: red
+            margin-bottom: 2px
+        &_active
+            &:nth-child(1)
+                transform: rotate(-45deg)
